@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Creative Agency</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	</head>
+  <body>
+
+	  
+	<!-- Navigation section -->
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-4 pb-4">
+	  
+		<div class="container-fluid">
+			<i style="color:white;"class="bi-palette"></i><a class="navbar-brand mx-3" href="index.html">Creative Agency</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+				<ul class="navbar-nav nav  mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Product
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">Product 1</a></li>
+							<li><a class="dropdown-item" href="#">Product 2</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="#">Product 3</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="login.html">Login/Registration</a>
+					</li>
+				</ul>
+			</div>
+	  </div>
+	</nav>
+	
+	<div class="container-fluid g-0">
+		<img src="images/laptop-4906312_1280.jpg" class="g-0 container-fluid" alt="Designer working on computer"/>	
+	</div>	
+	
+	<div class="container mt-2 mt-md-5 mb-2 py-5 px-md-5 px-4"> 
+		<!-- margin top = 2, med-large = 5 -->
+		
+		<h1 class="display-3 mb-4 mb-md-5 text-primary">Login or Register</h1>
+		<div class="mb-5" style="overflow: hidden;">
+			<p>Dolore ut quaerat praesentium aut voluptatem eum. Tempora ducimus et aperiam et enim ullam autem ut eius aspernatur. Qui rerum dolores dolorem quasi qui dolorem et in necessitatibus eligendi dolorem velit.</p>
+			
+			<p>Illum ea aut dolor ut qui repudiandae laboriosam non cum molestiae sed voluptate maxime id. Eveniet asperiores quas iste quae cum beatae et fugiat quod non sunt occaecati similique. Sint reprehenderit tempore quibusdam aperiam commodi et sunt occaecati. Nihil dolorum sunt saepe aperiam sed culpa.</p>
+			
+			<p>Voluptas ea voluptatem laudantium quae natus dolores quo voluptas quae explicabo accusamus soluta at odio. Nihil corrupti et quae debitis quibusdam. Voluptatem nobis odit natus et et. Dolore rem ratione facilis sed vitae aliquid quibusdam omnis.</p>
+		</div>
+		<hr class="mt-5">
+	</div>	
+	
+	<div class="container rounded p-5 bg-light mb-5">
+		
+		<ul class="nav nav-pills mb-3 mb-md-4 pb-3" id="pills-tab" role="tablist">
+			<li class="nav-item">
+				<a class="nav-link active" id="pills-login-tab" data-bs-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="true">Login</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="pills-register-tab" data-bs-toggle="pill" href="#pills-register" role="tab" aria-controls="pills-register" aria-selected="false">Register</a>
+			</li>
+		</ul>
+		
+		<!-- Login -->
+		
+		<div class="tab-content pb-5" id="pills-tabContent">
+			<div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">
+				<h2 class="display-5 mb-md-5 mb-4 text-primary">Login</h2>
+				
+				<form class="row gy-3">
+					<div class="col-md-6">
+						<label for="inputEmail" class="form-label">Email/username</label>
+						<input type="email" class="form-control" id="loginInputEmail">
+					</div>
+							
+					<div class="col-md-6">
+						<label for="inputPassword" class="form-label">Password</label>
+						<input type="password" class="form-control" id="loginInputPassword">
+					</div>
+							
+					<div class="d-grid">
+						<br>
+						<button class="btn btn-secondary" type="button">Login</button>
+
+						
+					</div>
+				</form>
+				
+			</div>
+			
+			<!-- Register -->
+
+			
+			<div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="pills-register-tab">
+				<h2 class="display-5 mb-md-5 mb-4 text-primary">Register</h2>
+				
+				<form class="row gy-3">
+
+					
+					<div class="col-md-6">
+						<label for="registerInputFirstName" class="form-label">First Name</label>
+						<input type="text" class="form-control" id="registerInputFirstName" required>
+					</div>
+					
+					<div class="col-md-6">
+						<label for="registerInputLastName" class="form-label">Last Name</label>
+						<input type="text" class="form-control" id="registerInputLastName" required>
+					</div>
+					
+					<div class="col-12">
+						<label for="registerInputEmail" class="form-label">Email</label>
+						<input type="email" class="form-control" id="registerInputEmail" required>
+					</div>
+							
+					<div class="col-12">
+						<label for="registerInputPassword" class="form-label">Password</label>
+						<input type="password" class="form-control" id="registerInputPassword" required>
+					</div>
+					
+					<div class="col-12">
+						<label for="confirmPassword" class="form-label">Confirm Password</label>
+						<input type="password" class="form-control" id="confirmPassword" required>
+					</div>
+							
+					<div class="d-grid gap-2">
+					<br>
+						<button class="btn btn-secondary" type="submit" value="submit">Register</button>
+					</div>
+				</form>
+				
+			</div>
+		</div>
+
+		
+	</div>	
+		
+	
+	
+	
+
+	
+	<footer class="container-fluid bg-dark py-5">
+		<div class="container py-5">
+			<p class="text-white">© 2026 Creative Agency</p>
+		</div>	
+		
+	</footer>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> -->
+	
+  </body>
+</html>
